@@ -1,0 +1,163 @@
+*,::after,::before{
+    box-sizing: border-box;
+    list-style-type: none;
+    font-family: "SF Pro Text", "Arial", sans-serif;
+}
+
+body {
+    /* font-family: "蘋方-繁","SF Pro Text","sans-serif"; */
+    /* height: auto; */
+    /* max-width: 1200px;
+    margin: 0px auto; */
+  } 
+
+.container{
+  max-width: 1200px;
+  margin: 0px auto;
+}
+
+h1{
+  border-bottom: #000000 2px solid;
+  font-size: 80px;
+  line-height: 106px;
+}
+.ma-20{
+  margin-bottom: 20px;
+}
+
+.photo{
+  width: 324px;
+  height: 324px;
+  margin: 50px 0px;
+}
+
+.self-info{
+  font-size: 32px;
+  line-height: 36px;
+  border-bottom: #000000 1px solid;
+  padding-bottom: 10px; 
+}
+
+.en-p{
+  font-size: 24px;
+  line-height: 32px;
+  color: #A00404;
+}
+/* 
+.pdl-0{
+  padding-left: 0px;
+} */
+
+.resume{
+  font-size: 24px;
+  line-height: 36px;
+  padding-top: 10px;
+  padding-bottom: 40px;
+}
+
+.bg-color{
+  background: #415165;
+  /* max-width: 100%; */
+  color: #FFFFFF;
+  padding: 36px 0px;
+  margin: 72px 0px;
+}
+
+.content{
+  font-size: 32px;
+  text-align: center;
+}
+
+.content, .skills-title{
+  border-bottom: #FFFFFF 1px solid;
+  margin: 10px;
+}
+
+.skills{
+  width: 996px;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.skills span{
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.skills-title{
+  font-size: 32px;
+  line-height: 36px;
+  text-align: center;
+}
+
+.skills-list{
+  font-size: 24px;
+  line-height: 32px;
+  border-left: #ffffff 1px solid;
+  display: inline-block;
+  text-align: left;
+  padding-left: 24px;
+}
+
+.skills-list li{
+  margin: 10px 0px;
+}
+
+.content{
+  font-size: 32px;
+  line-height: 43px;
+}
+
+.content-info{
+  height: 312px;
+  display: block;
+}
+
+.content-list li{
+  text-align: center;
+  font-size: 24px;
+  line-height: 36px;
+}
+
+.portfolio a{
+  text-decoration: none;
+  color: #ffffff;
+}
+
+
+.work-study li{
+  font-size: 24px;
+  line-height: 32px;
+  border-left: #96A9C4 1px solid;
+  padding-left: 24px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  display: inline-block;
+  text-align: left;
+}
+
+.work-study-info{
+  padding: 8px 0px;
+}
+
+.work-study-info img ,.work-study-info p{
+  padding-top: 10px;
+  padding-left: 24px;
+}
+
+.work-study-info p{
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: normal;
+}
+
+.icon{
+  transform: scale(0.8);
+  border-radius: 0;
+}
+
+.icon:hover{
+  transform: scale(1.1);
+  border-radius: 50%;
+}
